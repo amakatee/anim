@@ -97,15 +97,15 @@ console.log(lettersArray)
       <div ref={box}  className='animated-box'>
     
       <h1 ref={h1} className='animated-text'>
-         { lettersArray.map(letter => (
-     <span className='letter'>{letter}</span>
+         { lettersArray.map((letter,i) => (
+     <span key={i} className='letter'>{letter}</span>
       
      ))}
      </h1>
    
      <h1 ref={h1} className='animated-text animate-white'>
-       { lettersArray.map(letter => (
-          <span className='letter large-l'>{letter}</span>
+       { lettersArray.map((letter, i) => (
+          <span key={i} className='letter large-l'>{letter}</span>
     
    ))}
    </h1>
@@ -170,30 +170,30 @@ console.log(lettersArray)
        <div ref={starsRef} className='stardiv'>
          {firstLine.split("").map((letter, i) => (
           
-           <span className='span-star'>{letter}</span>
+           <span key={i} className='span-star'>{letter}</span>
           
          ))}
           </div>
           <div ref={starsRef2}  className='stardiv'>
           {secondLine.split("").map((letter, i) => (
           
-           <span className='span-star'>{letter}</span>
+           <span key={i} className='span-star'>{letter}</span>
          
          ))}
            </div>
 
 
-           <div  ref={starsRef3} className='stardiv'>
+           <div ref={starsRef3} className='stardiv'>
           {thirdLine.split("").map((letter, i) => (
           
-           <span className='span-star'>{letter}</span>
+           <span key={i} className='span-star'>{letter}</span>
          
          ))}
            </div>
-           <div  ref={starsRef4} className='stardiv'>
+           <div ref={starsRef4} className='stardiv'>
           {fourthLine.split("").map((letter, i) => (
           
-           <span className='span-star'>{letter}</span>
+           <span  key={i} className='span-star'>{letter}</span>
          
          ))}
            </div>
