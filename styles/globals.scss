@@ -247,7 +247,8 @@ a {
 
 .star-cont {
   position: absolute;
-  left: 0;
+  left: 6%;
+  top: 5%;
  
   width: 10vw;
   height: 35rem;
@@ -261,10 +262,11 @@ a {
  
   gap: 1px;
  
-  padding: 3rem;
+  
   
 
   .stardiv {
+   
  
     display: flex;
     justify-content: space-around;
@@ -278,18 +280,14 @@ a {
 
     .span-star {
    
-      // width: 1.5px;
-      // height: 1.5px;
-     // border-radius: 50%;
-     // background: rgb(4, 255, 4);
       color: rgb(255, 255, 255);
     
       font-size: .5rem;
       text-shadow: 0 0 5px rgb(0, 110, 255), 
-    0 0 28px rgba(187, 255, 0, 0.3),
-    0 8px 38px rgb(56, 255, 30), 
-    0 8px 10px rgb(38, 255, 10), 
-    0 2px 12px rgb(4, 30, 179),
+    0 0 28px rgba(4, 255, 201, 0.212),
+    0 7px 18px rgb(56, 255, 30), 
+    0 7px 12px rgb(38, 255, 10), 
+    0 5px 13px rgb(4, 30, 179),
     
     }
   

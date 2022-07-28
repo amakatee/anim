@@ -92,7 +92,7 @@ console.log(lettersArray)
 
   return (
     <>
-   <div className='main'>
+   {/* <div className='main'>
       
       <div ref={box}  className='animated-box'>
     
@@ -117,7 +117,7 @@ console.log(lettersArray)
 
       
        
-    </div>
+    </div> */}
     {/* <div className='main2'>
       <div className='animation-box '>
         <div ref={box2} className='box2 absolute-center '>
