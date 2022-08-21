@@ -6,6 +6,7 @@
 html,
 body {
   padding: 0;
+  scroll-behavior: smooth;
   margin: 0;
   font-family: neuelight, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -290,7 +291,12 @@ a {
       color: rgb(255, 255, 255);
     
       font-size: .6rem;
-      line-height: .5;
+      line-height:1;
+       margin: -20px;
+      transition: .65s ease-in-out;
+      
+      
+      
   
       text-shadow: 0 0 5px rgb(0, 110, 255), 
     0 0 28px rgba(4, 255, 201, 0.212),
@@ -310,8 +316,6 @@ a {
  
   
 }
-
-
 
 
 
